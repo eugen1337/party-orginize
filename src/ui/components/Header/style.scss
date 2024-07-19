@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  height: 50px;
+  background-color: #1a1632;
+
+  justify-content: space-between;
+  align-items: center;
+
+  .link-container {
+    display: flex;
+    align-items: center;
+
+    margin-left: 20px;
+    a {
+      text-decoration: none;
+
+      .home-link {
+        color: antiquewhite;
+        text-align: center;
+      }
+    }
+  }
+
+  .right-container {
+    display: flex;
+    margin-right: 20px;
+    flex-direction: row;
+
+    .username-container {
+      .username {
+        color: rgb(242, 0, 255);
+        margin-right: 20px;
+      }
+    }
+    .menu-container {
+      color: chartreuse;
+    }
+  }
+}
