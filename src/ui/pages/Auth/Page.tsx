@@ -99,7 +99,7 @@ export const AuthPage: FC = () => {
             <Button icon={<SendOutlined />} type="primary" htmlType="submit">
               зайти
             </Button>
-            <Link to={"./register"}>
+            <Link to={"/register"}>
               <Text color="#fafafa">я новенький!</Text>
             </Link>
           </LoginAndRegisterContainer>

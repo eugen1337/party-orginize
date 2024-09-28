@@ -5,7 +5,7 @@ export type UserRegisterData = {
 
     age: number
 
-    address: string
+    address?: string
 
     email: string
 
